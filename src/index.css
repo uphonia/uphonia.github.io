@@ -1,13 +1,40 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.main-header {
+    position: relative;
+    z-index: 1;
+
+    &:before {
+        border-top: 2px solid #dfdfdf;
+        content:"";
+        margin: 0 auto; /* this centers the line to the full width specified */
+        position: absolute; /* positioning must be absolute here, and relative positioning must be applied to the parent */
+        top: 50%; left: 0; right: 0; bottom: 0;
+        width: 95%;
+        z-index: -1;
+    }
+
+    span {
+        /* to hide the lines from behind the text, you have to set the background color the same as the container */
+        background: #fff;
+        padding: 0 15px;
+    }
+}
+
+.navbar {
+
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    font-family: "Verdana";
+    width: 100%;
 }

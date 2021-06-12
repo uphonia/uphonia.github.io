@@ -1,42 +1,16 @@
-
-
-.main-container {
-	background-color: #b27bc9;
-	color: white;
-	height: 100vh;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-.main-header {
-	height: 100px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-size: 40px;
-	font-family: "Courier New";
-}
-
-.sub-container {
-	display: flex;
-	flex-direction: row;
-	width: 70%;
-}
-
-.info-container {
-	width: 50%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-family: "Courier New";
-	padding: 20px;
-	background-color: #454871;
+body {
+    margin: 0;
 }
 
 ul {
-  list-style-type: none;
-  width: 60%;
+    margin: 0;
+    padding: 0;
+	  list-style-type: none;
+	  width: 60%;
+}
+
+h2 {
+	margin: 0;
 }
 
 li {
@@ -49,4 +23,120 @@ li {
 a {
 	text-decoration: none;
 	color: inherit;
+}
+
+.main-container {
+	background-color: #b27bc9;
+	color: white;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-image: url("triangles.png");
+	background-size: cover;
+}
+
+
+.main-header {
+	width: 100%;
+	text-align: center;
+	border-bottom: 1.5px solid #5b4f4f;
+	line-height: 0.1em;
+	margin: 60px 0 20px;
+	font-family: "Helvetica";
+	width: 80%;
+	color: #454871;
+}
+
+.main-header span {
+    background: #D5CAEB;
+    padding:0 10px;
+}
+
+.sub-container {
+	display: flex;
+	flex-direction: row;
+	width: 70%;
+	margin-top: 20px;
+	height: 40%;
+	border: 3px double #999;
+}
+
+.info-container {
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: "Courier New";
+	padding: 30px;
+	background-color: #454871;
+}
+
+.navbar {
+	margin-top: 20px;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    font-family: "Verdana";
+    width: 100%;
+	color: #454871;
+}
+
+.nav-links li:hover{
+	text-decoration: underline;
+}
+
+.main-work-container {
+	background-color: #454871;
+	margin-top: 20px;
+	width: 70%;
+}
+
+.main-work-container ul {
+	width: 100%;
+}
+
+.work-container {
+	display: flex;
+	flex-direction: row;
+	border: 3px double #999;
+}
+
+.work-title {
+	display: flex;
+	justify-content: center;
+	font-family: "Verdana"
+}
+
+.work-title h2:hover {
+	text-decoration: underline;
+}
+
+.work-img {
+	width: 30%;
+	display: flex;
+	justify-content: center;
+}
+
+.work-img img {
+	width: 150px;
+	height: 150px;
+}
+
+.work-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: "Verdana";
+	width: 70%;
+}
+
+.work-description {
+	width: 70%;
+	display: flex;
+	justify-content: center;
+	line-height: 25px;
 }

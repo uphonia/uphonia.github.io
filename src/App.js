@@ -1,19 +1,31 @@
 import React from 'react'
 import './App.css';
-import Summary from './Summary'
-import Links from './Links'
+import './fonts.css'
+import Home from './Home'
+import Works from './Works'
+import Navbar from './Navbar'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 function App() {
 	return (
-		<div className="main-container">
-			<div className="main-header">
-				ANGELA WU
+		<Router>
+			<div className="main-container">
+				<h1 className="main-header">
+					<span>
+						WELCOME
+					</span>
+				</h1>
+				<Navbar />
+				<Switch>
+					<Route exact path="/">
+						<Home />
+					</Route>
+					<Route exact path="/:work">
+						<Works />
+					</Route>
+				</Switch>
 			</div>
-			<div className="sub-container">
-				<Summary />
-				<Links />
-			</div>
-		</div>
+		</Router>
 	);
 }
 

@@ -1,0 +1,19 @@
+/* font.css */
+
+@font-face {
+    font-family: 'Adam-bold';
+    src: local('Adam-bold'),
+        url('./fonts/Adam-Bold.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'Adam-light';
+    src: local('Adam-light'),
+        url('./fonts/Adam-Light.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'Adam-med';
+    src: local('Adam-med'),
+        url('./fonts/Adam-Medium.ttf') format('ttf');
+}
