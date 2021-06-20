@@ -4,7 +4,7 @@ import './fonts.css'
 import Home from './Home'
 import Works from './Works'
 import Navbar from './Navbar'
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import { HashRouter as Router, Route, Switch } from 'react-router-dom'
 
 function App() {
 	return (
@@ -20,7 +20,7 @@ function App() {
 					<Route exact path="/">
 						<Home />
 					</Route>
-					<Route exact path="/works">
+					<Route path="/works">
 						<Works />
 					</Route>
 				</Switch>
