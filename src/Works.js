@@ -6,7 +6,7 @@ const Works = () => {
             <ul>
                 <li className="work-container">
                     <div className="work-img">
-                        <img src="../pika.png"/>
+                        <img src="/pika.png"/>
                     </div>
                     <div className="work-info">
                         <div className="work-title">
