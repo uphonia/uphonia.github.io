@@ -6,7 +6,7 @@ const Works = () => {
             <ul>
                 <li className="work-container">
                     <div className="work-img">
-                        <img src="/pokeball4.png"/>
+                        <img src={process.env.PUBLIC_URL + "/pokeball4.png"}/>
                     </div>
                     <div className="work-info">
                         <div className="work-title">
