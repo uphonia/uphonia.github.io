@@ -4,11 +4,12 @@ import './fonts.css'
 import Home from './Home'
 import Works from './Works'
 import Navbar from './Navbar'
-import { HashRouter as Router, Route, Switch } from 'react-router-dom'
+import { Route, Switch } from 'react-router-dom'
+import {HashRouter} from 'react-router-dom'
 
 function App() {
 	return (
-		<Router>
+		<HashRouter>
 			<div className="main-container">
 				<h1 className="main-header">
 					<span>
@@ -25,7 +26,7 @@ function App() {
 					</Route>
 				</Switch>
 			</div>
-		</Router>
+		</HashRouter>
 	);
 }
 

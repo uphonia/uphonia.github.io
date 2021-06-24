@@ -6,14 +6,17 @@ const Works = () => {
             <ul>
                 <li className="work-container">
                     <div className="work-img">
-                        <img src="/pika.png"/>
+                        <img src="/pokeball4.png"/>
                     </div>
                     <div className="work-info">
                         <div className="work-title">
                             <h2><a href="https://github.com/uphonia/Pokepedia">Pokepedia</a></h2>
                         </div>
+                        <div className="work-skills">
+                            <p>React, HTML, CSS, Javascript</p>
+                        </div>
                         <div className="work-description">
-                            <p> React project of a Pokemon encyclopedia. It is hugely inspired by <a href="https://bulbapedia.bulbagarden.net/wiki/Main_Page"><u>Bulbapedia</u></a>. Work in progress.</p>
+                            <p> Personal rendition of a Pokemon encyclopedia. Includes searching, filtering, and viewing of Pokemon entries. </p>
                         </div>
                     </div>
                 </li>

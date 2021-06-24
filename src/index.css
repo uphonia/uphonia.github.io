@@ -27,14 +27,3 @@ ul {
         padding: 0 15px;
     }
 }
-
-.navbar {
-
-}
-
-.nav-links {
-    display: flex;
-    flex-direction: row;
-    font-family: "Verdana";
-    width: 100%;
-}

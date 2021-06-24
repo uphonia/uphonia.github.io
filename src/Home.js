@@ -6,6 +6,7 @@ const Home = () => {
     return (
         <div className="sub-container">
             <Summary />
+            <hr className="solid"/>
             <Links />
         </div>
     )

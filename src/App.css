@@ -60,6 +60,14 @@ a {
 	margin-top: 20px;
 	height: 40%;
 	border: 3px double #999;
+    background-color: #454871;
+}
+
+hr.solid {
+	/* margin-top: 40px; */
+	border-left: 2px solid white;
+	height: 60%;
+    margin-top: 45px;
 }
 
 .info-container {
@@ -69,7 +77,6 @@ a {
 	align-items: center;
 	font-family: "Courier New";
 	padding: 30px;
-	background-color: #454871;
 }
 
 .navbar {
@@ -107,17 +114,23 @@ a {
 .work-title {
 	display: flex;
 	justify-content: center;
-	font-family: "Verdana"
+	font-family: "Verdana";
+    margin-top: 10px;
 }
 
 .work-title h2:hover {
 	text-decoration: underline;
 }
 
+.work-skills {
+    font-size: 12px;
+}
+
 .work-img {
 	width: 30%;
 	display: flex;
 	justify-content: center;
+    align-items: center;
 }
 
 .work-img img {
@@ -135,8 +148,9 @@ a {
 }
 
 .work-description {
-	width: 70%;
 	display: flex;
 	justify-content: center;
 	line-height: 25px;
+    margin-bottom: 10px;
+    margin-left: 20px;
 }

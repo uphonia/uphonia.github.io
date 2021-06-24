@@ -6,28 +6,28 @@ function Links() {
 	return (
 		<div className="info-container">
 			<ul>
-				<li> 
-					<FiPaperclip/> 
-					<a href="/WuAngela_Resume.pdf">
-						Resume 
+				<li>
+					<FiPaperclip/>
+					<a href={process.env.PUBLIC_URL + '/WuAngela_Resume.pdf'} target="_blank">
+						Resume
 					</a>
 				</li>
-				<li> 
-					<FaGithub/> 
+				<li>
+					<FaGithub/>
 					<a href="https://github.com/uphonia">
-						Github 
+						Github
 					</a>
 				</li>
-				<li> 
-					<FaLinkedin/> 
+				<li>
+					<FaLinkedin/>
 					<a href="https://www.linkedin.com/in/angela-wu-118075b9/">
-						LinkedIn 
+						LinkedIn
 					</a>
 				</li>
-				<li> 
-					<FiMail/> 
+				<li>
+					<FiMail/>
 					<a href="mailto:wu.angela96@icloud.com">
-						Contact 
+						Contact
 					</a>
 				</li>
 			</ul>
