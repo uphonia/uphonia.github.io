@@ -5,25 +5,188 @@ body {
 ul {
     margin: 0;
     padding: 0;
+	list-style-type: none;
+	width: 60%;
 }
 
+h2 {
+	margin: 0;
+}
+
+li {
+	margin: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+p {
+    margin: 0;
+}
+
+.main-container {
+	background-color: #b27bc9;
+	color: white;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-image: url("triangles.png");
+	background-size: cover;
+}
+
+
 .main-header {
+	width: 100%;
+	text-align: center;
+	border-bottom: 1.5px solid #5b4f4f;
+	line-height: 0.1em;
+	margin: 60px 0 20px;
+	font-family: "Verdana";
+	width: 80%;
+	color: #454871;
+}
+
+.main-header span {
+    background: #D5CAEB;
+    padding:0 10px;
+}
+
+.sub-container {
+	display: flex;
+	flex-direction: row;
+	width: 70%;
+	margin-top: 20px;
+	border: 10px double white;
+    background-color: #454871;
+}
+
+hr.solid {
+	border-left: 2px solid white;
+	height: 65%;
+    margin-top: 45px;
+    margin-left: 10px;
+}
+
+.info-container {
+	width: 50%;
+	display: flex;
+    flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: "Courier New";
+	padding: 30px;
+}
+
+.navbar {
+	margin-top: 20px;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    font-family: "Verdana";
+    width: 100%;
+	color: #454871;
+}
+
+.nav-links li:hover{
+	text-decoration: underline;
+}
+
+.main-work-container {
+	margin-top: 20px;
+	width: 70%;
+}
+
+.main-work-container ul {
+	width: 100%;
+}
+
+.work-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.work-example {
+    z-index: 2;
+    position: absolute;
+}
+
+.work-example img {
+    width: 850px;
+    border: 10px double #999;
+}
+
+.work-contents {
+    z-index: 3;
     position: relative;
-    z-index: 1;
+	display: flex;
+	flex-direction: column;
+	border: 3px double #999;
+	/* background-color: #454871; */
+    background-color: rgb(69, 72, 113, 0.9);
+    width: 60%;
+    margin-top: 10%;
+    justify-content: center;
+    font-family: "Verdana";
+    align-items: center;
+    margin-left: 45%;
+    box-shadow: -6px 6px 5px 0px rgba(75, 47, 151, 0.6);
+}
 
-    &:before {
-        border-top: 2px solid #dfdfdf;
-        content:"";
-        margin: 0 auto; /* this centers the line to the full width specified */
-        position: absolute; /* positioning must be absolute here, and relative positioning must be applied to the parent */
-        top: 50%; left: 0; right: 0; bottom: 0;
-        width: 95%;
-        z-index: -1;
-    }
+.work-title {
+	display: flex;
+	justify-content: center;
+	font-family: "Verdana";
+    margin-bottom: 10px;
+    margin-top: 10px;
+    align-items: center;
+}
 
-    span {
-        /* to hide the lines from behind the text, you have to set the background color the same as the container */
-        background: #fff;
-        padding: 0 15px;
-    }
+.link-box {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 20px;
+}
+
+.work-skills {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.work-img {
+	width: 30%;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+
+.work-img img {
+	width: 150px;
+	height: 150px;
+}
+
+.work-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: "Verdana";
+	/* width: 70%; */
+}
+
+.work-description {
+	display: flex;
+	justify-content: center;
+	line-height: 25px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    text-align:center;
 }
