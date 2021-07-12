@@ -4,7 +4,7 @@ import {FiMail, FiPaperclip} from 'react-icons/fi'
 
 function Links() {
 	return (
-		<div className="info-container">
+		<div className="links-container">
 			<ul>
 				<li>
 					<FiPaperclip/>
