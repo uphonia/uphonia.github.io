@@ -1,5 +1,4 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
 import {FiMail} from 'react-icons/fi'
 import {AiFillHome} from 'react-icons/ai'
 import {IoCodeWorking} from 'react-icons/io5'
@@ -9,22 +8,20 @@ const Navbar = () => {
 		<nav className="navbar">
 	  		<ul className="nav-links">
 	  			<li>
-	  				<NavLink to="/" exact activeStyle={{textDecoration: "underline"}}>
-						<AiFillHome className="nav-icon"/>
-						HOME
-					</NavLink>
+	  				<a href="#home">
+						<AiFillHome className="nav-icon"/> HOME
+					</a>
 	  			</li>
-				<hr className="solid"/>
 				<li>
-	  				<NavLink to="/works" exact activeStyle={{textDecoration: "underline"}}>
-						<IoCodeWorking className="nav-icon"/>
-						WORKS
-					</NavLink>
+	  				<a href="#works">
+						<IoCodeWorking className="nav-icon"/> WORKS
+					</a>
 	  			</li>
-				<hr className="solid"/>
 				<li>
-	  				<FiMail className="nav-icon"/>CONTACT
-	  			</li>
+					<a href="#contact">
+						<FiMail className="nav-icon"/> CONTACT
+					</a>
+				</li>
 	  		</ul>
 		</nav>
 	)
