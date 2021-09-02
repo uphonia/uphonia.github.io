@@ -39,7 +39,7 @@ function Summary() {
 						<span>Status:</span>
 					</div><br/>
 					<div className="info-text">
-						I am open to new opportunities that are fully remote within the US and Canada. I am mainly looking for a front-end role. Please reach out if you would like to learn more!
+						I am open to new opportunities that are permanently remote from anywhere (or just North America). I am open to front-end or full-stack roles. Please reach out if you would like to learn more!
 					</div>
 				</li>
 			</ul>
