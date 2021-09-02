@@ -178,12 +178,8 @@ hr.solid {
     align-items: center;
 }
 
-.work-example {
-
-}
-
 .work-example img {
-    width: 850px;
+    width: 100%;
     border: 10px double #999;
 }
 
@@ -242,28 +238,8 @@ hr.solid {
 }
 
 .work-skills {
-    font-size: 12px;
+    font-size: 14px;
     margin-bottom: 10px;
-}
-
-.work-img {
-	width: 30%;
-	display: flex;
-	justify-content: center;
-    align-items: center;
-}
-
-.work-img img {
-	width: 150px;
-	height: 150px;
-}
-
-.work-info {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	font-family: "Verdana";
 }
 
 .work-description {
@@ -292,17 +268,4 @@ hr.solid {
 
 .contact-info-container ul li:hover {
     background: rgba(0, 0, 0, 0.1);
-}
-
-@media (max-width:1200px) {
-    hr.solid {
-        width: 1%;
-    }
-}
-
-@media (max-width:960px) {
-    hr.solid {
-        width: 0;
-        height: 10px;
-    }
 }
