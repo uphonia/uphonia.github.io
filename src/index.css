@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color: #d5caeb;
 }
 
 ul {
@@ -12,7 +13,7 @@ ul {
 
 h1, h2 {
 	margin: 0;
-    font-family: "Courier New";
+    font-family: "Verdana";
     font-weight: normal;
     color: black;
 }
@@ -90,7 +91,7 @@ hr.solid {
 .info-container {
 	display: flex;
     flex-direction: column;
-	font-family: "Courier New";
+	font-family: "Verdana";
 	padding: 30px;
     width: 70%;
     align-items: center;
@@ -178,9 +179,12 @@ hr.solid {
     align-items: center;
 }
 
+.work-example {
+    border: 10px double #999;
+}
+
 .work-example img {
     width: 100%;
-    border: 10px double #999;
 }
 
 .work-container:hover .overlay-container {
@@ -203,7 +207,7 @@ hr.solid {
 	border: 3px double #999;
     background-color: rgb(69, 72, 113, 0.9);
     justify-content: center;
-    font-family: "Courier New";
+    font-family: "Verdana";
     align-items: center;
     box-shadow: -6px 6px 5px 0px rgba(75, 47, 151, 0.6);
     height: 50%;
@@ -268,4 +272,21 @@ hr.solid {
 
 .contact-info-container ul li:hover {
     background: rgba(0, 0, 0, 0.1);
+}
+
+.return-btn {
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    background-color: grey; /* Set a background color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    padding: 10px;
+    transform: rotate(-135deg);
+}
+
+.return-btn:hover {
+    background-color: #555;
 }
