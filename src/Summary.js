@@ -12,7 +12,7 @@ function Summary() {
 				<ul>
 					<li style={{flexDirection:"row"}}>
 						<IoLocationOutline className="info-icon"/>
-						New York City
+						Vancouver, Canada
 					</li>
 					<li>
 						<div className="info-header">
@@ -31,16 +31,7 @@ function Summary() {
 							<span>Current role:</span>
 						</div><br/>
 						<div className="info-text">
-							Software Engineer @ Modrokkr
-						</div>
-					</li>
-					<li>
-						<div className="info-header">
-							<SiNuxtDotJs className="info-icon"/>
-							<span>Status:</span>
-						</div><br/>
-						<div className="info-text">
-							I am open to new opportunities that are permanently remote from anywhere (or just North America). I want to work more with React and am open to front-end or full-stack roles. Please reach out if you would like to learn more!
+							Software Engineer @ Block Renovation
 						</div>
 					</li>
 				</ul>
