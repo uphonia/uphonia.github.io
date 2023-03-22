@@ -1,9 +1,9 @@
 {
-  "main.css": "static/css/main.65bbfdb6.css",
-  "main.css.map": "static/css/main.65bbfdb6.css.map",
-  "main.js": "static/js/main.b41bebbf.js",
-  "main.js.map": "static/js/main.b41bebbf.js.map",
-  "static/media/spray.png": "static/media/spray.ed62ca18.png",
-  "static/media/squares.png": "static/media/squares.9d9d35ce.png",
-  "static/media/triangles2.png": "static/media/triangles2.fd43bd64.png"
+  "main.css": "static/css/main.9b53285f.css",
+  "main.css.map": "static/css/main.9b53285f.css.map",
+  "main.js": "static/js/main.6c63bfbc.js",
+  "main.js.map": "static/js/main.6c63bfbc.js.map",
+  "static\\media\\spray.png": "static/media/spray.ed62ca18.png",
+  "static\\media\\squares.png": "static/media/squares.9d9d35ce.png",
+  "static\\media\\triangles2.png": "static/media/triangles2.fd43bd64.png"
 }
